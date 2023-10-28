@@ -1,0 +1,11 @@
+
+import calender
+import time
+
+current_GMT = time.gmtime()
+
+time_stamp = calender.timegm(current_GMT)
+print("current timestamp",time_stamp)
+
+
+
